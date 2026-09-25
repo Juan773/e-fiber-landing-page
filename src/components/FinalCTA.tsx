@@ -12,7 +12,9 @@ export default function FinalCTA() {
           <h2 id="cta-title" className="final-cta__title">
             ¿Listo para navegar <span className="text-cyan">más rápido</span>?
           </h2>
-          <p className="final-cta__text">Contrata Internet por fibra óptica con E-Fiber.</p>
+          <p className="final-cta__text">
+            Contrata Internet por fibra óptica con <strong className="final-cta__brand">E-Fiber</strong>.
+          </p>
           <div className="final-cta__actions">
             <a className="btn btn--orange btn--lg" href={whatsappUrl(messages.hire)} target="_blank" rel="noopener noreferrer">
               Contratar ahora <Icon name="arrow" size={20} />
