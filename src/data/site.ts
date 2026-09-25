@@ -29,8 +29,8 @@ export const socials: { name: "Facebook" | "Instagram" | "YouTube"; url: string 
 
 export const referral = {
   amount: 20,
-  title: "Trae a un amigo y ambos reciben",
-  detail: "de descuento en su siguiente recibo",
+  title: "Trae a un amigo y recibe",
+  detail: "de descuento en tu siguiente recibo",
 };
 
 export const coverageZones = [

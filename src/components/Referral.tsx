@@ -5,7 +5,7 @@ import Icon, { type IconName } from "./Icon";
 const steps: { icon: IconName; title: string; text: string }[] = [
   { icon: "megaphone", title: "Recomienda E-Fiber", text: "Cuéntale a un amigo, vecino o familiar sobre nuestro internet." },
   { icon: "userPlus", title: "Tu amigo contrata", text: "Tu referido contrata cualquiera de nuestros planes de fibra óptica." },
-  { icon: "gift", title: `Ambos reciben S/ ${referral.amount}`, text: `Tú y tu amigo obtienen S/ ${referral.amount} ${referral.detail}.` },
+  { icon: "gift", title: `Recibes S/ ${referral.amount}`, text: `Obtienes S/ ${referral.amount} ${referral.detail} cuando tu amigo contrate.` },
 ];
 
 export default function Referral() {
