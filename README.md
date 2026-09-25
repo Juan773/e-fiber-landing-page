@@ -41,9 +41,10 @@ src/
   components/   Header, Hero, Plans, Benefits, Referral, WhyFiber, Coverage, Uses, FinalCTA, Footer, WhatsAppButton…
   data/         plans.ts, site.ts
   lib/          whatsapp.ts
-  assets/       fotos recortadas de los flyers (WebP)
+  assets/       logo (isotipo y completo) y fotos recortadas de los flyers (WebP)
   styles/       global.css
-public/         favicon.svg, og-image.jpg
+public/         favicon-32.png, apple-touch-icon.png, og-image.jpg
+LOGO.png        logo oficial original (fuente de los logos optimizados en src/assets)
 ```
 
 Los PNG de la raíz son los flyers de referencia originales; no se publican en el sitio.

@@ -11,7 +11,7 @@ export default function Footer() {
     <footer className="footer">
       <div className="container footer__grid">
         <div className="footer__brand">
-          <Logo variant="dark" showTagline />
+          <Logo variant="full" />
           <p>Servicio de Internet en fibra óptica para hogares y negocios. Velocidad sin límites.</p>
           <p className="footer__legal">
             {company.legalName} · RUC {company.ruc}
