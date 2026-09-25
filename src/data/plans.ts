@@ -15,8 +15,8 @@ export interface Plan {
 
 export const plans: Plan[] = [
   {
-    id: "basico",
-    name: "Plan Básico",
+    id: "plan-100",
+    name: "Plan 100",
     speedMbps: 100,
     price: 50,
     tone: "teal",
@@ -28,38 +28,25 @@ export const plans: Plan[] = [
     devices: "Hasta 5 dispositivos",
   },
   {
-    id: "intermedio",
-    name: "Plan Intermedio",
-    speedMbps: 200,
+    id: "plan-300",
+    name: "Plan 300",
+    speedMbps: 300,
     price: 70,
     tone: "blue",
     features: [
-      "Streaming en HD y videollamadas",
-      "Juegos en línea",
-      "Conexión más rápida y estable",
-    ],
-    devices: "Hasta 8 dispositivos",
-  },
-  {
-    id: "avanzado",
-    name: "Plan Avanzado",
-    speedMbps: 300,
-    price: 100,
-    tone: "orange",
-    badge: "Más elegido",
-    features: [
-      "Streaming en 4K",
-      "Descargas más rápidas",
+      "Streaming en HD y 4K",
+      "Videollamadas y juegos en línea",
       "Conexión para toda la familia y smart TV",
     ],
     devices: "Hasta 12 dispositivos",
   },
   {
-    id: "premium",
-    name: "Plan Premium",
-    speedMbps: 500,
-    price: 150,
-    tone: "purple",
+    id: "plan-400",
+    name: "Plan 400",
+    speedMbps: 400,
+    price: 100,
+    tone: "orange",
+    badge: "Más velocidad",
     features: [
       "Máximo rendimiento en gaming y 4K",
       "Ideal para hogares con muchos dispositivos",
@@ -73,4 +60,4 @@ export const plans: Plan[] = [
 export const includedInAllPlans = ["100% fibra óptica", "Instalación gratuita", "Soporte técnico"];
 
 /** Planes que se muestran en el hero. */
-export const heroPlanIds = ["intermedio", "avanzado"];
+export const heroPlanIds = ["plan-300", "plan-400"];

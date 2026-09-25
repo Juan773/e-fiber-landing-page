@@ -34,13 +34,24 @@ export const referral = {
 };
 
 export const coverageZones = [
-  "San Martín de Porres",
-  "Los Olivos",
-  "Comas",
-  "Independencia",
-  "Cercado de Lima",
-  "Rímac",
-  "San Miguel",
+  "Los Sauces",
+  "Betania",
+  "El Inti",
+  "Auxiliar de la Prialé",
+  "Alameda I, II y III",
+  "La Era (I, II, III, IV y V etapa)",
+  "San Francisco",
+  "Los Pinos",
+  "Las Cadenas",
+  "Las Colinas",
+  "Alto Perú",
+  "Sol de Huampaní",
+  "El Vallecito Anexo 12",
+  "Puerto",
+  "Grau",
+  "Huascata",
+  "La Floresta",
+  "Villarica",
 ];
 
 export const navLinks = [

@@ -25,7 +25,7 @@ function buildCoverageMessage(f: CoverageForm): string {
   return [
     "Hola E-Fiber, quiero consultar cobertura.",
     `Nombre: ${f.name.trim()}`,
-    `Distrito: ${f.district.trim()}`,
+    `Zona: ${f.district.trim()}`,
     `Dirección: ${f.address.trim()}`,
     `Teléfono: ${f.phone.trim()}`,
   ].join("\n");
@@ -61,7 +61,7 @@ export default function Coverage() {
               <input id="cov-name" name="name" autoComplete="name" required value={form.name} onChange={(e) => set("name")(e.target.value)} placeholder="Tu nombre y apellido" />
             </div>
             <div className="field">
-              <label htmlFor="cov-district">Distrito</label>
+              <label htmlFor="cov-district">Zona o sector</label>
               <input
                 id="cov-district"
                 name="district"
@@ -69,7 +69,7 @@ export default function Coverage() {
                 required
                 value={form.district}
                 onChange={(e) => set("district")(e.target.value)}
-                placeholder="Ej. Los Olivos"
+                placeholder="Ej. La Era"
               />
               <datalist id="cov-district-list">
                 {coverageZones.map((z) => (

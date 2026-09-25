@@ -794,8 +794,10 @@ input {
 
 .plans {
   display: grid;
-  grid-template-columns: repeat(4, minmax(0, 1fr));
-  gap: 20px;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 24px;
+  max-width: 1040px;
+  margin-inline: auto;
   align-items: stretch;
 }
 
@@ -1608,10 +1610,6 @@ input {
 /* ---------- Responsive ---------- */
 
 @media (max-width: 1060px) {
-  .plans {
-    grid-template-columns: repeat(2, minmax(0, 1fr));
-    gap: 28px 20px;
-  }
 
   .uses {
     grid-template-columns: repeat(3, minmax(0, 1fr));
@@ -1635,6 +1633,12 @@ input {
 
   .benefits {
     grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .plans {
+    grid-template-columns: 1fr;
+    max-width: 460px;
+    gap: 28px;
   }
 
   .referral {
